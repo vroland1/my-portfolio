@@ -1,0 +1,25 @@
+.NavigationItem {
+    color: white;
+    display: inline-block;
+    width: 150px;
+    padding: 1em 0;
+    margin: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px
+}
+
+.NavigationItem a {
+    color: white;
+    text-decoration: none;
+}
+
+.NavigationItem:hover,
+.NavigationItem:active,
+.NavigationItem.active {
+    border-bottom: 2px solid white;
+}
+
+.NavigationItem a:active,
+.NavigationItem a.active {
+    color: rgb(124, 124, 124)
+}
